@@ -1,0 +1,158 @@
+Namespace(batchSize=512, dataset='diginetica', epoch=20, hiddenSize=100, l2=1e-05, lr=0.001, lr_dc=0.1, lr_dc_step=10, n_layers=2, nonhybrid=False, patience=3, seed=3407, step=1, valid_portion=0.1, validation=False)
+Namespace(batchSize=512, dataset='diginetica', epoch=20, hiddenSize=100, l2=1e-05, lr=0.001, lr_dc=0.1, lr_dc_step=10, n_layers=2, nonhybrid=False, patience=3, seed=3407, step=1, valid_portion=0.1, validation=False)
+-------------------------------------------------------
+epoch: 0
+start training: 2024-12-17 12:11:28.506156
+[0/1406] Classification Loss: 11.5705, Contrast Loss: 22.5001, R-Drop Loss: 0.0000
+[282/1406] Classification Loss: 9.5472, Contrast Loss: 11.0977, R-Drop Loss: 0.0000
+[564/1406] Classification Loss: 8.3288, Contrast Loss: 13.1748, R-Drop Loss: 0.0000
+[846/1406] Classification Loss: 7.0937, Contrast Loss: 12.5164, R-Drop Loss: 0.0000
+[1128/1406] Classification Loss: 6.7077, Contrast Loss: 11.6486, R-Drop Loss: 0.0000
+	Total Classification Loss:	11305.508, Total Contrast Loss:	2937.057, Contrast Loss Weight:	0.000
+start predicting: 2024-12-17 12:28:55.086287
+Best Result:
+	Recall@20:	46.1648	MMR@20:	17.5743	Epoch:	0,	0
+---filling memory bank---
+-------------------------------------------------------
+epoch: 1
+start training: 2024-12-17 12:43:46.777673
+[0/1406] Classification Loss: 5.7288, Contrast Loss: 11.7431, R-Drop Loss: 0.0000
+[282/1406] Classification Loss: 5.5299, Contrast Loss: 7.5326, R-Drop Loss: 0.0000
+[564/1406] Classification Loss: 5.4163, Contrast Loss: 6.1284, R-Drop Loss: 0.0000
+[846/1406] Classification Loss: 5.3026, Contrast Loss: 4.8245, R-Drop Loss: 0.0000
+[1128/1406] Classification Loss: 5.2860, Contrast Loss: 3.3910, R-Drop Loss: 0.0000
+	Total Classification Loss:	9195.615, Total Contrast Loss:	2497.824, Contrast Loss Weight:	0.200
+start predicting: 2024-12-17 13:01:13.464492
+Best Result:
+	Recall@20:	51.0253	MMR@20:	18.3233	Epoch:	1,	1
+---filling memory bank---
+-------------------------------------------------------
+epoch: 2
+start training: 2024-12-17 13:15:52.723647
+[0/1406] Classification Loss: 4.7854, Contrast Loss: 1.9224, R-Drop Loss: 0.0000
+[282/1406] Classification Loss: 4.9002, Contrast Loss: 1.8829, R-Drop Loss: 0.0000
+[564/1406] Classification Loss: 4.8928, Contrast Loss: 1.9150, R-Drop Loss: 0.0000
+[846/1406] Classification Loss: 4.9602, Contrast Loss: 1.9148, R-Drop Loss: 0.0000
+[1128/1406] Classification Loss: 4.8686, Contrast Loss: 1.8950, R-Drop Loss: 0.0000
+	Total Classification Loss:	7401.860, Total Contrast Loss:	1239.668, Contrast Loss Weight:	0.200
+start predicting: 2024-12-17 13:33:17.746194
+Best Result:
+	Recall@20:	52.5042	MMR@20:	18.6048	Epoch:	2,	2
+---filling memory bank---
+-------------------------------------------------------
+epoch: 3
+start training: 2024-12-17 13:47:37.248761
+[0/1406] Classification Loss: 4.4370, Contrast Loss: 1.8713, R-Drop Loss: 0.0000
+[282/1406] Classification Loss: 4.6192, Contrast Loss: 1.8605, R-Drop Loss: 0.0000
+[564/1406] Classification Loss: 4.7025, Contrast Loss: 1.8527, R-Drop Loss: 0.0000
+[846/1406] Classification Loss: 4.8502, Contrast Loss: 1.8597, R-Drop Loss: 0.0000
+[1128/1406] Classification Loss: 4.7519, Contrast Loss: 1.8568, R-Drop Loss: 0.0000
+	Total Classification Loss:	7124.018, Total Contrast Loss:	1518.760, Contrast Loss Weight:	0.200
+start predicting: 2024-12-17 14:01:33.879629
+Best Result:
+	Recall@20:	52.8969	MMR@20:	18.8502	Epoch:	3,	3
+---filling memory bank---
+-------------------------------------------------------
+epoch: 4
+start training: 2024-12-17 14:13:52.987855
+[0/1406] Classification Loss: 4.4300, Contrast Loss: 1.8404, R-Drop Loss: 0.0000
+[282/1406] Classification Loss: 4.5161, Contrast Loss: 1.8343, R-Drop Loss: 0.0000
+[564/1406] Classification Loss: 4.4559, Contrast Loss: 1.8415, R-Drop Loss: 0.0000
+[846/1406] Classification Loss: 4.8214, Contrast Loss: 1.8209, R-Drop Loss: 0.0000
+[1128/1406] Classification Loss: 4.7071, Contrast Loss: 1.8293, R-Drop Loss: 0.0000
+	Total Classification Loss:	6951.360, Total Contrast Loss:	1755.548, Contrast Loss Weight:	0.200
+start predicting: 2024-12-17 14:27:56.201131
+Best Result:
+	Recall@20:	53.0612	MMR@20:	19.0158	Epoch:	4,	4
+---filling memory bank---
+-------------------------------------------------------
+epoch: 5
+start training: 2024-12-17 14:40:07.228113
+[0/1406] Classification Loss: 4.4177, Contrast Loss: 1.8428, R-Drop Loss: 0.0000
+[282/1406] Classification Loss: 4.2135, Contrast Loss: 1.8286, R-Drop Loss: 0.0000
+[564/1406] Classification Loss: 4.4851, Contrast Loss: 1.8287, R-Drop Loss: 0.0000
+[846/1406] Classification Loss: 4.7355, Contrast Loss: 1.8221, R-Drop Loss: 0.0000
+[1128/1406] Classification Loss: 4.5282, Contrast Loss: 1.8079, R-Drop Loss: 0.0000
+	Total Classification Loss:	6890.777, Total Contrast Loss:	1962.994, Contrast Loss Weight:	0.200
+start predicting: 2024-12-17 14:54:05.541969
+Best Result:
+	Recall@20:	53.0612	MMR@20:	19.0158	Epoch:	4,	4
+---filling memory bank---
+-------------------------------------------------------
+epoch: 6
+start training: 2024-12-17 15:06:29.721738
+[0/1406] Classification Loss: 4.7851, Contrast Loss: 2.0492, R-Drop Loss: 0.0000
+[282/1406] Classification Loss: 4.4930, Contrast Loss: 2.0298, R-Drop Loss: 0.0000
+[564/1406] Classification Loss: 4.4200, Contrast Loss: 1.9984, R-Drop Loss: 0.0000
+[846/1406] Classification Loss: 4.4036, Contrast Loss: 1.9105, R-Drop Loss: 0.0000
+[1128/1406] Classification Loss: 4.5123, Contrast Loss: 1.9152, R-Drop Loss: 0.0000
+	Total Classification Loss:	6817.946, Total Contrast Loss:	2243.525, Contrast Loss Weight:	0.200
+start predicting: 2024-12-17 15:20:33.723754
+Best Result:
+	Recall@20:	53.0612	MMR@20:	19.0327	Epoch:	4,	6
+---filling memory bank---
+-------------------------------------------------------
+epoch: 7
+start training: 2024-12-17 15:29:47.833383
+[0/1406] Classification Loss: 3.9673, Contrast Loss: 1.8431, R-Drop Loss: 0.0000
+[282/1406] Classification Loss: 4.1777, Contrast Loss: 1.8486, R-Drop Loss: 0.0000
+[564/1406] Classification Loss: 4.1623, Contrast Loss: 1.8277, R-Drop Loss: 0.0000
+[846/1406] Classification Loss: 4.5014, Contrast Loss: 1.8223, R-Drop Loss: 0.0000
+[1128/1406] Classification Loss: 4.3195, Contrast Loss: 1.8170, R-Drop Loss: 0.0000
+	Total Classification Loss:	6641.375, Total Contrast Loss:	2244.819, Contrast Loss Weight:	0.200
+start predicting: 2024-12-17 15:39:51.303242
+Best Result:
+	Recall@20:	53.1237	MMR@20:	19.1029	Epoch:	7,	7
+---filling memory bank---
+-------------------------------------------------------
+epoch: 8
+start training: 2024-12-17 15:47:06.117725
+[0/1406] Classification Loss: 4.0517, Contrast Loss: 1.8365, R-Drop Loss: 0.0000
+[282/1406] Classification Loss: 4.1608, Contrast Loss: 1.8317, R-Drop Loss: 0.0000
+[564/1406] Classification Loss: 4.3361, Contrast Loss: 1.8195, R-Drop Loss: 0.0000
+[846/1406] Classification Loss: 4.2927, Contrast Loss: 1.8297, R-Drop Loss: 0.0000
+[1128/1406] Classification Loss: 4.2808, Contrast Loss: 1.8178, R-Drop Loss: 0.0000
+	Total Classification Loss:	6549.321, Total Contrast Loss:	2333.395, Contrast Loss Weight:	0.200
+start predicting: 2024-12-17 15:57:08.571802
+Best Result:
+	Recall@20:	53.1237	MMR@20:	19.1029	Epoch:	7,	7
+---filling memory bank---
+-------------------------------------------------------
+epoch: 9
+start training: 2024-12-17 16:04:24.331416
+[0/1406] Classification Loss: 4.0683, Contrast Loss: 1.8433, R-Drop Loss: 0.0000
+[282/1406] Classification Loss: 4.1148, Contrast Loss: 1.8445, R-Drop Loss: 0.0000
+[564/1406] Classification Loss: 4.1539, Contrast Loss: 1.8423, R-Drop Loss: 0.0000
+[846/1406] Classification Loss: 3.9565, Contrast Loss: 1.8627, R-Drop Loss: 0.0000
+[1128/1406] Classification Loss: 4.0880, Contrast Loss: 1.8535, R-Drop Loss: 0.0000
+	Total Classification Loss:	6174.354, Total Contrast Loss:	2405.236, Contrast Loss Weight:	0.200
+start predicting: 2024-12-17 16:14:26.439998
+Best Result:
+	Recall@20:	53.1237	MMR@20:	19.1489	Epoch:	7,	9
+---filling memory bank---
+-------------------------------------------------------
+epoch: 10
+start training: 2024-12-17 16:21:47.237939
+[0/1406] Classification Loss: 3.9715, Contrast Loss: 1.8196, R-Drop Loss: 0.0000
+[282/1406] Classification Loss: 3.9294, Contrast Loss: 1.8325, R-Drop Loss: 0.0000
+[564/1406] Classification Loss: 4.0578, Contrast Loss: 1.8163, R-Drop Loss: 0.0000
+[846/1406] Classification Loss: 4.0065, Contrast Loss: 1.8219, R-Drop Loss: 0.0000
+[1128/1406] Classification Loss: 4.1213, Contrast Loss: 1.8382, R-Drop Loss: 0.0000
+	Total Classification Loss:	6143.730, Total Contrast Loss:	2457.524, Contrast Loss Weight:	0.200
+start predicting: 2024-12-17 16:31:49.195002
+Best Result:
+	Recall@20:	53.1680	MMR@20:	19.1734	Epoch:	10,	10
+---filling memory bank---
+-------------------------------------------------------
+epoch: 11
+start training: 2024-12-17 16:39:09.595675
+[0/1406] Classification Loss: 3.9259, Contrast Loss: 1.8511, R-Drop Loss: 0.0000
+[282/1406] Classification Loss: 4.0264, Contrast Loss: 1.8133, R-Drop Loss: 0.0000
+[564/1406] Classification Loss: 3.9250, Contrast Loss: 1.8346, R-Drop Loss: 0.0000
+[846/1406] Classification Loss: 4.0325, Contrast Loss: 1.8376, R-Drop Loss: 0.0000
+[1128/1406] Classification Loss: 4.0406, Contrast Loss: 1.8791, R-Drop Loss: 0.0000
+	Total Classification Loss:	6120.736, Total Contrast Loss:	2494.828, Contrast Loss Weight:	0.200
+start predicting: 2024-12-17 17:06:12.311369
+Best Result:
+	Recall@20:	53.2157	MMR@20:	19.1734	Epoch:	11,	10
+---filling memory bank---
